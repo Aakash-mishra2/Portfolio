@@ -1,0 +1,29 @@
+import React from "react";
+import Card from "../../shared/UIElements/Card";
+import Button from "../../shared/FormComponents/Button";
+
+export default function CaseItem(props) {
+
+    return (
+        <div>
+            <React.Fragment>
+                <li className="project-item">
+                    <Card className="project-item__content">
+                        <div className="project-item__image">
+                            <img src={props.image} alt={props.court} />
+                        </div>
+                        <div className="project-item__info">
+                            <h2>{props.title}</h2>
+                        </div>
+                        <div className="project-item__actions">
+
+                            <Button to={props.readMe}>DESCRIPTION</Button>
+                            <Button to={props.deploy}>VIEW</Button>
+                            <Button to={props.github}>Github Repo </Button>
+                        </div>
+                    </Card>
+                </li>
+            </React.Fragment>
+        </div>
+    );
+}
