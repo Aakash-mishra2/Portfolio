@@ -7,7 +7,7 @@ export default function AllProjects() {
             id: 'thl234',
             title: 'Court Case Management System',
             description: " No desc. ",
-            projectUrl: 'https://lustrous-chimera-92ec15.netlify.app/',
+            projectUrl: 'https://superb-marigold-f77750.netlify.app/',
             repoLink: 'https://github.com/Aakash-mishra2/CCMS-frontEnd',
             READme: ''
         },

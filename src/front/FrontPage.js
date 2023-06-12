@@ -19,7 +19,7 @@ export default function FrontPage() {
         },
         {
             id: 'extras',
-            name: "Extra-Curriculars",
+            name: "Marksheets",
             icon: ''
 
         }
