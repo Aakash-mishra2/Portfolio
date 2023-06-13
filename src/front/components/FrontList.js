@@ -26,6 +26,7 @@ export default function FrontList(props) {
                             id={blocks.id}
                             name={blocks.name}
                             iconURL={blocks.icon}
+                            sendTo={blocks.linkTo}
                         />
                     )
                 })

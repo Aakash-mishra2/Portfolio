@@ -19,7 +19,7 @@ export default function CaseItem(props) {
 
                             <Button to={props.readMe}>DESCRIPTION</Button>
                             <Button to={props.deploy}>VIEW</Button>
-                            <Button to={props.github}>Github Repo </Button>
+                            <Button to={props.github}>Github Repository </Button>
                         </div>
                     </Card>
                 </li>
