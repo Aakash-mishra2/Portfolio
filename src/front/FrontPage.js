@@ -27,9 +27,8 @@ export default function FrontPage() {
         {
             id: 'extras',
             name: "Marksheets",
-            linkTo: "/marksheets",
+            linkTo: 'https://www.ipuranklist.com/student/00214802720',
             icon: rsl
-
         }
     ]
 
