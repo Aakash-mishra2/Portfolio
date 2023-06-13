@@ -1,7 +1,9 @@
 .front-item {
     margin: 1rem;
-    width: calc(45% - 2rem);
+    width: auto;
+    padding-left: 1.5rem;
     min-width: 17.5rem;
+    justify-items: stretch;
 }
 
 .front-item a {
@@ -22,16 +24,18 @@
 
 .front-item__content {
     padding: 0;
+    width: auto;
+    padding-left: 2 rem;
 }
 
 .front-item__image {
-    width: 4rem;
-    height: 4rem;
+    width: 5rem;
+    height: 5rem;
     margin-right: 1rem;
 }
 
 .front-item__info h2 {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     margin: 0 0 0.5rem 0;
     font-weight: normal;
     color: #ffd900;
