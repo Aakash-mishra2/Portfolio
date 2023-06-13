@@ -22,14 +22,14 @@ export default function Trainings() {
         },
         {
             id: 'mern-stack',
-            name: 'Full (MERN) Stack Web Development, Udemy',
+            name: 'Full (MERN) Stack Web Development, Dr. Angela Yu, Udemy',
             description: 'Dr. Angela Yu',
             linkTo: 'https://www.dropbox.com/s/29dpbx39pq7ohaq/UdemyWebC.jpg?dl=0',
             icon: apd
         },
         {
             id: 'dsa',
-            name: 'Mastering Data Structures and Algorithms, Udemy',
+            name: 'Mastering Data Structures and Algorithms, Dr. Abdul Bari, Udemy',
             description: 'Dr. Abdul Bari',
             icon: dsa,
             linkTo: 'https://www.dropbox.com/s/jen2w0grhzzxzu9/UdemyAlgoC.jpg?dl=0'

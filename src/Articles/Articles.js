@@ -1,6 +1,7 @@
 import FrontList from "../front/components/FrontList";
 import vsn from "../icons/vision.png";
 import wbd from "../icons/web-design.png";
+import logo from "../icons/image-editing.png";
 
 export default function Articles() {
     const ARTICLES = [
@@ -15,6 +16,12 @@ export default function Articles() {
             name: 'Internet and Web Development report',
             icon: wbd,
             linkTo: 'https://www.dropbox.com/s/bgps903rbazui58/Report%20on%20Web%20Developement%20%20-%20Introduction.pdf?dl=0'
+        },
+        {
+            id: 'a3',
+            name: 'My Submission for MATES Logo Design Competition',
+            icon: logo,
+            linkTo: 'https://www.dropbox.com/s/ikf9211jqujxy7e/MAIT-LOGO.png?dl=0'
         }
     ];
 
