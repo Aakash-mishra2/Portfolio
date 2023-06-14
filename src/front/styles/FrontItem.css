@@ -1,6 +1,6 @@
 .front-item {
     margin: 1rem;
-    width: auto;
+    width: 40%;
     padding-left: 1.5rem;
     min-width: 17.5rem;
     justify-items: stretch;
@@ -14,12 +14,12 @@
     text-decoration: none;
     padding: 1rem;
     color: white;
-    background: #292929;
+    background: #395b64;
 }
 
 .front-item a:hover,
 .front-item a:active {
-    background: #ffd900;
+    background: #850e35;
 }
 
 .front-item__content {
@@ -36,14 +36,14 @@
     font-size: 1.2rem;
     margin: 0 0 0.5rem 0;
     font-weight: normal;
-    color: #ffd900;
+    color: #e4dccf;
 }
 
 .front-item:hover h2,
 .front-item:active h2,
 .front-item:hover h3,
 .front-item:active h3 {
-    color: #292929;
+    color: #e4dccf;
 }
 
 .front-item__info h3 {

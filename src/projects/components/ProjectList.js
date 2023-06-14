@@ -6,7 +6,7 @@ import Card from "../../shared/UIElements/Card";
 export default function ProjectList(props) {
     if (props.projects.length === 0) {
         return (
-            <div className="proj-list center" >
+            <div className="center" >
                 <Card>
                     <p>No projects found ! Maybe create one. </p>
                 </Card>
@@ -15,7 +15,7 @@ export default function ProjectList(props) {
     }
 
     return (
-        <ul className="case-list">
+        <ul className="project-list">
             {props.projects.map(items => (
                 <ProjectItem
                     key={items.id}

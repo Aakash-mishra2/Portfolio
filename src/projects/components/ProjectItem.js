@@ -1,13 +1,14 @@
 import React from "react";
 import Card from "../../shared/UIElements/Card";
 import Button from "../../shared/FormComponents/Button";
+import '../styles/ProjectItem.css';
 
 export default function CaseItem(props) {
 
     return (
         <div>
             <React.Fragment>
-                <li className="project-item">
+                <ul className="project-item">
                     <Card className="project-item__content">
                         <div className="project-item__image">
                             <img src={props.image} alt={props.court} />
@@ -22,7 +23,7 @@ export default function CaseItem(props) {
                             <Button to={props.github}>Github Repository </Button>
                         </div>
                     </Card>
-                </li>
+                </ul>
             </React.Fragment>
         </div>
     );

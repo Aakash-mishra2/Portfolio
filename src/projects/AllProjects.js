@@ -15,17 +15,9 @@ export default function AllProjects() {
             id: 'thl234',
             title: 'Shopmate',
             description: " No desc. ",
-            projectUrl: 'https://clever-paletas-35e720.netlify.app/',
-            repoLink: 'https://github.com/Aakash-mishra2/Shopmate',
-            READme: 'https://github.com/Aakash-mishra2/Shopmate#readme'
-        },
-        {
-            id: 'thl234',
-            title: 'Dynamic Login',
-            description: " No desc. ",
-            projectUrl: 'https://lively-axolotl-2bb941.netlify.app/',
-            repoLink: 'https://github.com/Aakash-mishra2/Dynamic-Login',
-            READme: ' '
+            projectUrl: 'https://grand-nougat-b73bde.netlify.app/',
+            repoLink: 'https://github.com/Aakash-mishra2/ShopMate-FrontEnd',
+            READme: 'https://github.com/Aakash-mishra2/ShopMate-FrontEnd#readme'
         }
     ]
 
