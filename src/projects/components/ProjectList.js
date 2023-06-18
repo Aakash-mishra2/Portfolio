@@ -23,6 +23,7 @@ export default function ProjectList(props) {
                     title={items.title}
                     description={items.description}
                     deploy={items.projectUrl}
+                    image={items.image}
                     github={items.repoLink}
                     readMe={items.READme}
                 />
