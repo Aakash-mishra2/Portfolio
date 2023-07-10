@@ -11,8 +11,8 @@ export default function AllProjects() {
             description: " No desc. ",
             image: ccms,
             projectUrl: 'https://courtcase-manager.netlify.app/',
-            repoLink: 'https://github.com/Aakash-mishra2/CCMS-frontEnd',
-            READme: 'https://github.com/Aakash-mishra2/CCMS-frontEnd#readme'
+            // repoLink: 'https://github.com/Aakash-mishra2/CCMS-frontEnd',
+            // READme: 'https://github.com/Aakash-mishra2/CCMS-frontEnd#readme'
         },
         {
             id: 'thl234',
@@ -20,15 +20,15 @@ export default function AllProjects() {
             description: " No desc. ",
             projectUrl: 'https://shopmate-sky.netlify.app/',
             image: shopm,
-            repoLink: 'https://github.com/Aakash-mishra2/ShopMate-FrontEnd',
-            READme: 'https://github.com/Aakash-mishra2/ShopMate-FrontEnd#readme'
+            // repoLink: 'https://github.com/Aakash-mishra2/ShopMate-FrontEnd',
+            // READme: 'https://github.com/Aakash-mishra2/ShopMate-FrontEnd#readme'
         },
         {
             id: 'jsc234',
             title: 'Co-curricular: Java swing calculator',
             image: jvc,
             description: " No desc. ",
-            repoLink: 'https://github.com/Aakash-mishra2/Java_swing_Calculator',
+            // repoLink: 'https://github.com/Aakash-mishra2/Java_swing_Calculator',
         }
     ]
 
