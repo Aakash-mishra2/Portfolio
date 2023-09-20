@@ -1,3 +1,4 @@
+
 .project-item {
   margin: 1rem 0;
 }
@@ -8,7 +9,7 @@
 }
 
 .project-item__info {
-  padding: 1rem;
+  padding: 0.3rem;
   text-align: center;
 }
 
@@ -31,7 +32,7 @@
 }
 
 .project-item__actions {
-  padding: 1rem;
+  padding: 0.2rem;
   text-align: center;
   border-top: 1px solid #ccc;
 }
