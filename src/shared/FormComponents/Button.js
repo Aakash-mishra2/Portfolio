@@ -9,7 +9,8 @@ const Button = props => {
             <a
                 className={`button button--${props.size || 'default'} ${props.inverse &&
                     'button--inverse'} ${props.danger && 'button--danger'}`}
-                href={props.href}
+                href={props.href} target={props.target}
+                onClick={props.onClick}
             >
                 {props.children}
             </a>
