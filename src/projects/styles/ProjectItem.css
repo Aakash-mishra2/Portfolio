@@ -1,6 +1,8 @@
-
+@import url('https://fonts.googleapis.com/css2?family=REM&display=swap');
 .project-item {
-  margin: 1rem 0;
+  margin: 1rem auto;
+  margin-left: 50px;
+  font-family: 'REM', sans-serif;
 }
 
 .project-item__content {
@@ -35,6 +37,7 @@
   padding: 0.2rem;
   text-align: center;
   border-top: 1px solid #ccc;
+
 }
 
 .project-item__modal-content {
