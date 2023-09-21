@@ -9,7 +9,7 @@ export default function AllProjects() {
         {
             id: 'thl234',
             title: 'Court Case Management System : MERN',
-            description: "Full MERN Stack web application to manage pending court cases for citizens and register new case applications online. ",
+            description: "Full MERN Stack web application to manage pending court cases for citizens and register new case applications online. BACKEND REPO: https://github.com/Aakash-mishra2/CCMS-backEnd",
             image: ccms,
             projectUrl: 'https://yourccms.netlify.app/',
             gitURL: 'https://github.com/Aakash-mishra2/CCMS-frontEnd',
