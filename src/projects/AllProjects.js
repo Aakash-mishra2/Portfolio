@@ -12,7 +12,7 @@ export default function AllProjects() {
             description: "Full MERN Stack web application to manage pending court cases for citizens and register new case applications online. BACKEND REPO: https://github.com/Aakash-mishra2/CCMS-backEnd",
             image: ccms,
             projectUrl: 'https://yourccms.netlify.app/',
-            gitURL: 'https://github.com/Aakash-mishra2/CCMS-frontEnd',
+            gitURL: 'https://github.com/Aakash-mishra2/CCMS-reactjs-front-end',
             techStack: "Frontend: ReactJS, Hooks , Axios, Redux, HTML-CSS  Backend: RestAPI, NodeJS, ExpressJS, Javascript, MongoDB ",
         },
         {
