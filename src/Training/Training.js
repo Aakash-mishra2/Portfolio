@@ -15,7 +15,7 @@ export default function Trainings() {
         },
         {
             id: 'comp_programming',
-            name: 'Competitive Programming Introduction, Prof. Neeldhara Mishra, IIT Gandhinagar',
+            name: 'Getting Started in Competitive Programming , Prof. Neeldhara Mishra, IIT Gandhinagar',
             description: 'Prof. Neeldhara Mishra',
             linkTo: 'https://www.dropbox.com/s/k7gz3iao2zspuz5/Getting%20Started%20with%20Competitive%20Programming.jpg?dl=0',
             icon: algo
