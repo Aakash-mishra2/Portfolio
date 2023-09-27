@@ -29,7 +29,7 @@ export default function CaseItem(props) {
 
             </Modal>
             <React.Fragment>
-                <ul className="project-item">
+                <li className="project-item">
                     <Card className="project-item__content">
                         <div className="project-item__image">
                             <img src={props.image} alt={props.title} />
@@ -43,7 +43,7 @@ export default function CaseItem(props) {
                             <Button href={props.github} target="_blank"> Github Repository </Button>
                          </div>
                     </Card>
-                </ul>
+                </li>
             </React.Fragment>
         </div>
     );

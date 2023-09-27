@@ -9,7 +9,7 @@ export default function AllProjects() {
         {
             id: 'thl234',
             title: 'Court Case Management System : MERN',
-            description: "Full MERN Stack web application to manage pending court cases for citizens and register new case applications online. BACKEND REPO: https://github.com/Aakash-mishra2/CCMS-backEnd",
+            description: "Full MERN Stack web application to manage pending court cases for citizens and register new case applications online. BACKEND: https://github.com/Aakash-mishra2/CCMS-backEnd",
             image: ccms,
             projectUrl: 'https://yourccms.netlify.app/',
             gitURL: 'https://github.com/Aakash-mishra2/CCMS-reactjs-front-end',
@@ -17,7 +17,7 @@ export default function AllProjects() {
         },
         {
             id: 'mu322',
-            title: 'Your Meetups: NextJS',
+            title: 'Your Meetups: Next.js',
             description: " A full stack meetup storing album. Create meetup memories and share to your new network.",
             projectUrl: 'https://nextjs-typescript-project-three.vercel.app/',
             image: metup,
@@ -26,7 +26,7 @@ export default function AllProjects() {
         },
         {
             id: 'thl234',
-            title: 'Shopmate',
+            title: 'Shop-Mate: React.js',
             description: "Dynamic Shopping list web app to add and remove items. Save your shopping lists for future.",
             projectUrl: 'https://shopmate-sky.netlify.app/',
             image: shopm,

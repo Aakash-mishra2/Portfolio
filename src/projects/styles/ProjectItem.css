@@ -4,10 +4,19 @@
   margin-left: 50px;
   font-family: 'REM', sans-serif;
 }
-
+.project-item:hover,
+.project-item:active{
+  transform: scale(1.15);
+}
 .project-item__content {
   padding: 0;
   background-color: #9db2bf;
+}
+
+.project-item__content:active,
+.project-item__content:hover{
+  background-color: #5c8374;
+  color: #f8f0e5;
 }
 
 .project-item__info {
