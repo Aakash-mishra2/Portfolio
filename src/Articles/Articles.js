@@ -11,13 +11,13 @@ export default function Articles() {
             id: 'a1',
             name: 'Modern C++ Programming and a Burger Restuarant',
             icon: brg,
-            linkTo: 'https://www.dropbox.com/s/gtmxvaf6ke4tsg0/Modern%20C%2B%2B%20programming%20and%20a%20Burger%20Restuarant.pdf?dl=0'
+            linkTo: 'https://medium.com/@aakash281/modern-c-programming-and-a-burger-restaurant-9ebb7514e164'
         },
         {
             id: 'a2',
             name: '"Can ChatGPT choose not to answer a question."',
             icon: ai,
-            linkTo: 'https://www.dropbox.com/s/d39yce4assjjdii/Can%20ChatGPT%20choose%20not%20to%20answer%20a%20question.pdf?dl=0'
+            linkTo: 'https://medium.com/@aakash281/can-chatgpt-choose-not-to-answer-ceeba2e2da31'
         },
         {
             id: 'a3',
