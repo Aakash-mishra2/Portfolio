@@ -4,8 +4,19 @@ import jvc from "../icons/java_calculator.png";
 import ccms from "../icons/ccms.jpg"
 import shopm from "../icons/shopmate.jpg"
 import metup from "../icons/meetup.JPG"
+import todo from "../icons/todo-app.JPG"
 export default function AllProjects() {
     const ALL_PROJECTS = [
+        {
+            id: 'tda234',
+            title: 'ToDo-list App: React-Redux',
+            description: "On the go Todo-list management application. CRUD your tasks and boards( task-lists) on the go.",
+            projectUrl: 'https://my-todo-webapp.netlify.app/',
+            image: todo,
+            gitURL: 'https://github.com/Aakash-mishra2/todo-app-assignment',
+            techStack: 'React, Redux, React Hooks and UI elements(Awesome buttons, google material UI icons). Javascript, HTML-CSS',
+
+        },
         {
             id: 'thl234',
             title: 'Court Case Management System : MERN',
