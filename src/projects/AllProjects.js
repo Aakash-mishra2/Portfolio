@@ -36,15 +36,6 @@ export default function AllProjects() {
             techStack: 'Full Stack : NextJS, MongoDB, FetchAPI, Javascript, HTML-CSS '
         },
         {
-            id: 'thl234',
-            title: 'Shop-Mate: React.js',
-            description: "Dynamic Shopping list web app to add and remove items. Save your shopping lists for future.",
-            projectUrl: 'https://shopmate-sky.netlify.app/',
-            image: shopm,
-            gitURL: 'https://github.com/Aakash-mishra2/ShopMate-FrontEnd',
-            techStack: 'FrontEnd: ReactJS, ContextAPI, Javascript, HTML-CSS '
-        },
-        {
             id: 'jsc234',
             title: 'Co-curricular: Java swing calculator',
             image: jvc,
