@@ -2,7 +2,6 @@ import React from "react";
 import ProjectList from "./components/ProjectList";
 import jvc from "../icons/java_calculator.png";
 import ccms from "../icons/ccms.jpg"
-import shopm from "../icons/shopmate.jpg"
 import metup from "../icons/meetup.JPG"
 import todo from "../icons/todo-app.JPG"
 export default function AllProjects() {

@@ -14,12 +14,6 @@ export default function Articles() {
             linkTo: 'https://medium.com/@aakash281/modern-c-programming-and-a-burger-restaurant-9ebb7514e164'
         },
         {
-            id: 'a2',
-            name: '"Can ChatGPT choose not to answer a question."',
-            icon: ai,
-            linkTo: 'https://medium.com/@aakash281/can-chatgpt-choose-not-to-answer-ceeba2e2da31'
-        },
-        {
             id: 'a3',
             name: 'My Vision for India: 2047',
             icon: vsn,
