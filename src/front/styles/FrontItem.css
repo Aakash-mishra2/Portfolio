@@ -22,8 +22,8 @@
 .front-item a:hover,
 .front-item a:active {
     background: #850e35;
-        transform: scale(1.05);
-        transition: background 0.3s ease-in-out, transform 0.3s ease-in-out;
+        /* transform: scale(1.05);
+        transition: background 0.3s ease-in-out, transform 0.3s ease-in-out; */
 }
 
 .front-item__content {
