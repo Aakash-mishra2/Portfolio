@@ -6,3 +6,7 @@
     overflow: hidden;
     background: white;
 }
+.card:hover{
+    transform: scale(1.05);
+    transition: background 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
