@@ -1,9 +1,8 @@
 import FrontList from "../front/components/FrontList";
-import vsn from "../icons/vision.png";
 import wbd from "../icons/web-design.png";
 import logo from "../icons/image-editing.png";
 import brg from "../icons/burger.png";
-
+import ai from "../icons/ai.png";
 export default function Articles() {
     const ARTICLES = [
         {
@@ -13,10 +12,10 @@ export default function Articles() {
             linkTo: 'https://medium.com/@aakash281/modern-c-programming-and-a-burger-restaurant-9ebb7514e164'
         },
         {
-            id: 'a3',
-            name: 'My Vision for India: 2047',
-            icon: vsn,
-            linkTo: 'https://www.dropbox.com/s/mlnx69ge3wtcj2z/My%20Vision%20for%20India%202047.pdf?dl=0'
+            id: 'a2',
+            name: '"Can ChatGPT choose not to answer?"',
+            icon: ai,
+            linkTo: 'https://medium.com/@aakash281/can-chatgpt-choose-not-to-answer-ceeba2e2da31'
         },
         {
             id: 'a5',
