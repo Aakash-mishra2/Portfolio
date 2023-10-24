@@ -1,10 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=REM&display=swap');
 .front-item {
     margin: 1rem;
-    width: 60%;
-    padding-left: 1.5rem;
+    width: 90%;
+    padding-left: 0.5rem;
     min-width: 17.5rem;
-    justify-items: stretch;
     font-family: 'REM', sans-serif;
 }
 
@@ -33,11 +32,11 @@
 .front-item__image {
     width: 5rem;
     height: 5rem;
-    margin-right: 1rem;
+    margin-right: 0.5rem;
 }
 
 .front-item__info h2 {
-    font-size: 1.2rem;
+    font-size: 1.6rem;
     margin: 0 0 0.5rem 0;
     font-weight: normal;
     color: #e4dccf;

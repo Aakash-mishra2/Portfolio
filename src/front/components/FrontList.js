@@ -17,7 +17,7 @@ export default function FrontList(props) {
     }
 
     return (
-        <ul className="front-list">
+        <div className="front-list">
             {
                 props.cards.map(blocks => {
                     return (
@@ -31,6 +31,6 @@ export default function FrontList(props) {
                     )
                 })
             }
-        </ul>
+        </div>
     );
 }

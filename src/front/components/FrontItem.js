@@ -7,7 +7,7 @@ import '../styles/FrontItem.css';
 
 export default function FrontItem(props) {
     return (
-        <li className="front-item">
+        <div className="front-item">
             <Card className="front-item__content">
                 <Link to={`${props.sendTo}`}>
                     <div className="front-item__image">
@@ -19,6 +19,6 @@ export default function FrontItem(props) {
                     </div>
                 </Link>
             </Card>
-        </li>
+        </div>
     )
 }
