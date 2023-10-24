@@ -44,9 +44,7 @@ export default function FrontPage() {
         Object oriented Design and analysis using C++ Data structure and Algorithms.
     </tt></p>
     </div>
-    <div className="full-container">
     <FrontList cards={CARDS} />
-    </div>
     </React.Fragment>
     )
 }

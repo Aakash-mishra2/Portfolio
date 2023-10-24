@@ -3,6 +3,8 @@
   margin: 1rem auto;
   margin-left: 50px;
   font-family: 'REM', sans-serif;
+  width:90%;
+  height:400px;
 }
 .project-item:hover,
 .project-item:active{
