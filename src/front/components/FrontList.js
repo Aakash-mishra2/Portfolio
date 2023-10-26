@@ -1,7 +1,6 @@
 import React from "react";
 import FrontItem from "./FrontItem";
 import Card from "../../shared/UIElements/Card";
-import '../styles/FrontList.css';
 
 
 export default function FrontList(props) {
@@ -17,7 +16,7 @@ export default function FrontList(props) {
     }
 
     return (
-        <div className="front-list">
+        <div className="flex flex-col ml-24 mt-16 space-y-4 justify-start">
             {
                 props.cards.map(blocks => {
                     return (
