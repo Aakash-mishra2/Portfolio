@@ -16,7 +16,7 @@ export default function FrontList(props) {
     }
 
     return (
-        <div className="flex flex-col ml-24 mt-16 space-y-4 justify-start">
+        <div className="flex flex-col ml-24 mt-16 space-y-6 justify-start">
             {
                 props.cards.map(blocks => {
                     return (

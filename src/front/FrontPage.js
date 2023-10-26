@@ -1,4 +1,4 @@
-import FrontList from "./components/FrontList";
+import FrontItem from "./components/FrontItem";
 import prj from '../icons/project-management.png';
 import rsl from '../icons/results.png';
 import mlt from '../icons/multitasking.png';
@@ -33,16 +33,35 @@ export default function FrontPage() {
     ]
 
     return (
-    <div className="max-w-7xl mx-auto ml-24 mb-4">
-    <h1 className="text-4xl font-bold text-black font-serif mt-10 ml-30">
-        <tt>Hey 👋, I'm Aakash Mishra</tt>
-    </h1>
-    <p className="text-2xl font-bold  text-gray-600 font-serif "><tt>
-        I am a CSE undergraduate and do Full Stack Web development using 
-        Javascript, React, Next, Redux, tailwindcss, HTML, Node.js and More. I have good understanding of 
-        Object oriented Design and analysis using C++ Data structure and Algorithms.
-    </tt></p>
-    <FrontList cards={CARDS} />
-    </div>
+        <div className="max-w-7xl mx-auto ml-24 mb-4">
+            <h1 className="text-4xl font-bold text-black font-serif mt-10 ml-30">
+                <tt>Hey 👋, I'm Aakash Mishra</tt>
+            </h1>
+            <p className="text-2xl font-bold  text-gray-600 font-serif "><tt>
+                I am a CSE undergraduate and do Full Stack Web development using
+                Javascript, React, Next, Redux, tailwindcss, HTML, Node.js and More. I have good understanding of
+                Object oriented Design and analysis using C++ Data structure and Algorithms.
+            </tt></p>
+            <div className="ml-2 mt-10 grid grid-cols-2 gap-x-0">
+                {
+                    CARDS.map(item => {
+                        return (
+                            <FrontItem
+                                key={item.id}
+                                id={item.id}
+                                name={item.name}
+                                iconURL={item.icon}
+                                sendTo={item.linkTo}
+                            />
+                        )
+                    })
+                }
+            </div>
+            <div className="mx-auto">
+            <p className="text-2xl mt-8 align-center font-bold text-gray-600 font-serif "><tt><em> Contact Me </em></tt></p>
+
+            </div>
+
+        </div>
     )
 }
