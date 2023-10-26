@@ -1,4 +1,5 @@
 import FrontItem from "./components/FrontItem";
+import { Link } from "react-router-dom";
 import prj from '../icons/project-management.png';
 import rsl from '../icons/results.png';
 import mlt from '../icons/multitasking.png';
@@ -57,11 +58,11 @@ export default function FrontPage() {
                     })
                 }
             </div>
-            <div className="mx-auto">
-            <p className="text-2xl mt-8 align-center font-bold text-gray-600 font-serif "><tt><em> Contact Me </em></tt></p>
-
-            </div>
-
+            <p className="text-2xl mt-8 align-center font-bold text-black font-serif "><tt><em> My Weblinks </em></tt></p>
+            <div className="flex flex-row font font-sans justify-start gap-x-8 text-2xl mt-4 text-gray-600 font-semibold">
+            <Link to="https://www.linkedin.com/in/aakash-mishra-823b1a223/" target="__blank"><em>linkedin</em></Link>
+            <Link to="https://github.com/Aakash-mishra2" target="__blank"><em>github</em></Link>       
+            <Link to="https://medium.com/@aakash281" target="__blank"><em>medium</em></Link></div>
         </div>
     )
 }
