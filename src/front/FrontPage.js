@@ -34,14 +34,14 @@ export default function FrontPage() {
     ]
 
     return (
-        <div className="max-w-7xl mx-auto ml-24 mb-4">
-            <h1 className="text-4xl font-bold text-black font-serif mt-10 ml-30">
+        <div className="max-w-7xl mx-auto ml-24 mb-4 mr-8">
+            <h1 className="text-4xl font-bold text-black font-serif mt-10 ml-30 mb-4">
                 <tt>Hey 👋, I'm Aakash Mishra</tt>
             </h1>
             <p className="text-2xl font-bold  text-gray-600 font-serif "><tt>
-                I am a CSE undergraduate and do Full Stack Web development using
-                Javascript, React, Next, Redux, tailwindcss, HTML, Node.js and More. I have good understanding of
-                Object oriented Design and analysis using C++ Data structure and Algorithms.
+                I am a CSE undergraduate and I do Full Stack Web development using
+                Javascript, React, Next, Redux, tailwindcss, HTML, Node.js and More.
+                I love core programming by Object Oriented Design using C++ STL, Data structures and Algorithms. 
             </tt></p>
             <div className="ml-2 mt-10 grid grid-cols-2 gap-x-0">
                 {
