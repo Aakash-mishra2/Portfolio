@@ -29,21 +29,21 @@ export default function CaseItem(props) {
 
             </Modal>
             <React.Fragment>
-                <li className="project-item">
-                    <Card className="project-item__content">
+                <div className="project-item ">
+                    <Card className="project-item__content ">
                         <div className="project-item__image">
                             <img src={props.image} alt={props.title} />
                         </div>
-                        <div className="project-item__info">
+                        <div className="project-item__info text-2xl">
                             <h2>{props.title}</h2>
                         </div>
-                        <div className="project-item__actions">
+                        <div className="project-item__actions text-lg">
                             
                             <Button onClick={openDescBox}>VIEW</Button>
                             <Button href={props.github} target="_blank"> Github Repository </Button>
                          </div>
                     </Card>
-                </li>
+                </div>
             </React.Fragment>
         </div>
     );
