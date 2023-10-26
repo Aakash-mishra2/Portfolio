@@ -5,6 +5,7 @@ import rsl from '../icons/results.png';
 import mlt from '../icons/multitasking.png';
 import trg from '../icons/online-learning.png';
 import React from "react";
+import './styles/FrontList.css'; 
 export default function FrontPage() {
     const CARDS = [
         {
@@ -43,7 +44,7 @@ export default function FrontPage() {
                 Javascript, React, Next, Redux, tailwindcss, HTML, Node.js and More.
                 I love core programming by Object Oriented Design using C++ STL, Data structures and Algorithms. 
             </tt></p>
-            <div className="ml-2 mt-10 grid grid-cols-2 gap-x-0">
+            <div className=" front ml-2 mt-10 grid grid-cols-2 gap-x-0">
                 {
                     CARDS.map(item => {
                         return (
