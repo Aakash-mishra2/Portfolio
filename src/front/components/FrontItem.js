@@ -9,7 +9,7 @@ export default function FrontItem(props) {
     return (
         <div className="bg-[#395b64] front-item m-4 ml-0 w-3/5 rounded-lg ">
             <Card className="front-item__content">
-                <Link to={`${props.sendTo}`} target="__blank">
+                <Link to={`${props.sendTo}`}>
                     <div className="front-item__image">
                         <Avatar image={props.iconURL} alt={`${props.name}`} />
                     </div>
