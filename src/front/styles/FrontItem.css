@@ -21,13 +21,13 @@
 }
 
 .front-item__image {
-    width: 5rem;
-    height: 5rem;
+    width: 4rem;
+    height: 4rem;
     margin-right: 0.5rem;
 }
 
 .front-item__info h2 {
-    font-size: 1.6rem;
+    font-size: 1.3rem;
     margin: 0 0 0.5rem 0;
     font-weight: normal;
     color: #e4dccf;

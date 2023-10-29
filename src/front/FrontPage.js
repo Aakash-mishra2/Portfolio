@@ -35,16 +35,16 @@ export default function FrontPage() {
     ]
 
     return (
-        <div className="max-w-7xl mx-auto ml-24 mb-4 mr-8">
-            <h1 className="text-4xl font-bold text-black font-serif mt-10 ml-30 mb-4">
+        <div className="max-w-5xl mx-auto ml-24 mb-4 mr-8">
+            <h1 className="text-3xl font-bold text-black font-serif mt-10 ml-30 mb-4">
                 <tt>Hey 👋, I'm Aakash Mishra</tt>
             </h1>
-            <p className="text-2xl font-bold  text-gray-600 font-serif "><tt>
+            <p className="text-xl font-bold  text-gray-600 font-serif "><tt>
                 I am a CSE undergraduate and I do Full Stack Web development using
                 Javascript, React, Next, Redux, tailwindcss, HTML, Node.js and More.
                 I love core programming by Object Oriented Design using C++ STL, Data structures and Algorithms. 
             </tt></p>
-            <div className=" front ml-2 mt-10 grid grid-cols-2 gap-x-0">
+            <div className=" front ml-4 grid grid-cols-2 gap-x-0 gap-y-0 h-4/5">
                 {
                     CARDS.map(item => {
                         return (
@@ -59,8 +59,8 @@ export default function FrontPage() {
                     })
                 }
             </div>
-            <p className="text-2xl mt-8 align-center font-bold text-black font-serif "><tt><em> My Weblinks </em></tt></p>
-            <div className="flex flex-row font font-sans justify-start gap-x-8 text-2xl mt-4 text-gray-600 font-semibold">
+            <p className="text-xl mt-8 align-center font-bold text-black font-serif "><tt><em> My Weblinks </em></tt></p>
+            <div className="flex flex-row font font-sans justify-start gap-x-8 text-xl mt-4 text-gray-600 font-semibold">
             <Link to="https://www.linkedin.com/in/aakash-mishra-823b1a223/" target="__blank"><em>linkedin</em></Link>
             <Link to="https://github.com/Aakash-mishra2" target="__blank"><em>github</em></Link>       
             <Link to="https://medium.com/@aakash281" target="__blank"><em>medium</em></Link></div>
