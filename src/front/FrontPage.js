@@ -4,8 +4,6 @@ import prj from '../icons/project-management.png';
 import rsl from '../icons/results.png';
 import mlt from '../icons/multitasking.png';
 import trg from '../icons/online-learning.png';
-import React from "react";
-import './styles/FrontList.css'; 
 export default function FrontPage() {
     const CARDS = [
         {
@@ -35,16 +33,16 @@ export default function FrontPage() {
     ]
 
     return (
-        <div className="max-w-5xl mx-auto ml-24 mb-4 mr-8">
+        <div className="max-w-5xl mx-auto md:ml-24 mb-4 md:mr-8 ml-8 mr-4">
             <h1 className="text-3xl font-bold text-black font-serif mt-10 ml-30 mb-4">
                 <tt>Hey 👋, I'm Aakash Mishra</tt>
             </h1>
-            <p className="text-xl font-bold  text-gray-600 font-serif "><tt>
+            <p className="text-xl font-bold  text-gray-600 font-serif mb-4"><tt>
                 I am a CSE undergraduate and I do Full Stack Web development using
                 Javascript, React, Next, Redux, tailwindcss, HTML, Node.js and More.
                 I love core programming by Object Oriented Design using C++ STL, Data structures and Algorithms. 
             </tt></p>
-            <div className=" front ml-4 grid grid-cols-2 gap-x-0 gap-y-0 h-4/5">
+            <div className=" flex flex-col md:ml-4 m-0 p-0 md:grid md:grid-cols-2 gap-x-0 gap-y-0 h-4/5">
                 {
                     CARDS.map(item => {
                         return (

@@ -13,7 +13,7 @@ export default function AllProjects() {
             projectUrl: 'https://my-todo-webapp.netlify.app/',
             image: todo,
             gitURL: 'https://github.com/Aakash-mishra2/todo-app-assignment',
-            techStack: 'React, Redux, React Hooks and UI elements(Awesome buttons, google material UI icons). Javascript, HTML-CSS',
+            techStack: 'React, Redux, TailwindCSS, Styled-components, MaterialUI, HTML-CSS',
 
         },
         {
@@ -23,7 +23,7 @@ export default function AllProjects() {
             image: ccms,
             projectUrl: 'https://yourccms.netlify.app/',
             gitURL: 'https://github.com/Aakash-mishra2/CCMS-reactjs-front-end',
-            techStack: "Frontend: ReactJS, Hooks , Axios, Redux, HTML-CSS  Backend: RestAPI, NodeJS, ExpressJS, Javascript, MongoDB ",
+            techStack: "Frontend: ReactJS, Hooks, TailwindCSS, Axios, Redux, HTML-CSS  Backend: RestAPI, NodeJS, ExpressJS, Javascript, MongoDB ",
         },
         {
             id: 'mu322',
