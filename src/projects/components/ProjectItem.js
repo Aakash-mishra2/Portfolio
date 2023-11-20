@@ -18,7 +18,7 @@ export default function CaseItem(props) {
                 footer={
                     <span>
                         <Button onClick={closeDescBox} danger>CLOSE</Button>
-                        <Button href={props.deploy} target="_blank" onClick={closeDescBox}> View Deployed </Button>
+                        <Button href={props.deploy} danger target="_blank" onClick={closeDescBox}> View Deployed </Button>
                     </span>
                 }
                 contentClass="case-item__modal-content"
