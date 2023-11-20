@@ -24,7 +24,7 @@ export default function CaseItem(props) {
                 contentClass="case-item__modal-content"
                 footerClass="case-item__modal-actions"
             >
-                <h4><b>Description : </b><em>{props.description}</em></h4>
+                <h4 className="mb-4"><b>Description : </b><em>{props.description}</em></h4>
                 <p><b> TechStack : </b><em>{props.techStack}</em></p>
 
             </Modal>
