@@ -40,7 +40,7 @@ export default function FrontPage() {
             <p className="text-xl font-bold  text-gray-600 font-serif mb-4"><tt>
                 I am a CSE undergraduate and I do Full Stack Web development using
                 Javascript, React, Next, Redux, tailwindcss, HTML, Node.js and More.
-                I love core programming by Object Oriented Design using C++ STL, Data structures and Algorithms. 
+                I love core programming by Object Oriented Design using C++ STL, Data structures and Algorithms.
             </tt></p>
             <div className=" flex flex-col md:ml-4 m-0 p-0 md:grid md:grid-cols-2 gap-x-0 gap-y-0 h-4/5">
                 {
@@ -59,9 +59,11 @@ export default function FrontPage() {
             </div>
             <p className="text-xl mt-8 align-center font-bold text-black font-serif "><tt><em> My Weblinks </em></tt></p>
             <div className="flex flex-row font font-sans justify-start gap-x-8 text-xl mt-4 text-gray-600 font-semibold">
-            <Link to="https://www.linkedin.com/in/aakash-mishra-823b1a223/" target="__blank"><em>linkedin</em></Link>
-            <Link to="https://github.com/Aakash-mishra2" target="__blank"><em>github</em></Link>       
-            <Link to="https://medium.com/@aakash281" target="__blank"><em>medium</em></Link></div>
+                <Link to="https://www.linkedin.com/in/aakash-mishra-823b1a223/" target="__blank"><em>linkedin</em></Link>
+                <Link to="https://github.com/Aakash-mishra2" target="__blank"><em>github</em></Link>
+                <Link to="https://medium.com/@aakash281" target="__blank"><em>medium</em></Link>
+                <Link to="https://replit.com/@Aakash-mishra2" target="__blank"><em>replit</em></Link>
+            </div>
         </div>
     )
 }

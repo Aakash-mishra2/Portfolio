@@ -4,18 +4,8 @@ import ProjectList from "./components/ProjectList";
 import ccms from "../icons/ccms.jpg"
 import metup from "../icons/meetup.JPG"
 import todo from "../icons/todo-app.JPG"
-import shop from "../icons/shopmate.jpg"
 export default function AllProjects() {
     const ALL_PROJECTS = [
-        {
-            id:'shl234',
-            title: 'Shopping List: Node Backend',
-            description: 'Node Backend for handling REST-API requests using Graphql and Express with exhaustive error handling and input validation.',
-            projectUrl: 'https://github.com/Aakash-mishra2/rest-api-using-node-mongodb-graphql-mongoose-express',
-            image: shop,
-            gitURL: 'https://github.com/Aakash-mishra2/rest-api-using-node-mongodb-graphql-mongoose-express',
-            techStack: 'Node, Express, MongoDB, GraphQL, Router, express-validator'
-        },
         {
             id: 'thl234',
             title: 'Court Case Management System : MERN',
@@ -34,6 +24,15 @@ export default function AllProjects() {
             gitURL: 'https://github.com/Aakash-mishra2/todo-app-assignment',
             techStack: 'React, Redux, TailwindCSS, Styled-components, MaterialUI, HTML-CSS',
 
+        },
+        {
+            id:'shl234',
+            title: 'Court Case Mgm. System: Node Backend',
+            description: 'Node Backend for handling REST-API requests using Graphql and Express with exhaustive error handling and input validation.',
+            projectUrl: 'https://github.com/Aakash-mishra2/node-express-mongodb-court-case-management-backend',
+            image: ccms,
+            gitURL: 'https://github.com/Aakash-mishra2/node-express-mongodb-court-case-management-backend',
+            techStack: 'Node, Express, MongoDB, Mongoose, Router, Javascript, Express-validator'
         },
         {
             id: 'mu322',
