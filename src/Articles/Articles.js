@@ -11,12 +11,6 @@ export default function Articles() {
             linkTo: 'https://medium.com/@aakash281/modern-c-programming-and-a-burger-restaurant-9ebb7514e164'
         },
         {
-            id: 'a5',
-            name: 'My Submission for MATES Logo Design Competition',
-            icon: logo,
-            linkTo: 'https://www.dropbox.com/s/ikf9211jqujxy7e/MAIT-LOGO.png?dl=0'
-        },
-        {
             id: 'a6',
             name: 'Report on Internet and Web Development',
             icon: wbd,
