@@ -2,7 +2,6 @@ import FrontList from "../front/components/FrontList";
 import wbd from "../icons/web-design.png";
 import logo from "../icons/image-editing.png";
 import brg from "../icons/burger.png";
-//import ai from "../icons/ai.png";
 export default function Articles() {
     const ARTICLES = [
         {
