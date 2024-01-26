@@ -7,15 +7,6 @@ import todo from "../icons/todo-app.JPG"
 export default function AllProjects() {
     const ALL_PROJECTS = [
         {
-            id: 'thl234',
-            title: 'Court Case Management System : MERN',
-            description: "Full MERN Stack web application to manage pending court cases for citizens and register new case applications online. BACKEND: https://github.com/Aakash-mishra2/CCMS-backEnd",
-            image: ccms,
-            projectUrl: 'https://yourccms.netlify.app/',
-            gitURL: 'https://github.com/Aakash-mishra2/CCMS-reactjs-front-end',
-            techStack: "Frontend: ReactJS, Hooks, TailwindCSS, Axios, Redux, HTML-CSS  Backend: RestAPI, NodeJS, ExpressJS, Javascript, MongoDB ",
-        },
-        {
             id: 'tda234',
             title: 'ToDo-list App: React-Redux',
             description: "On the go Todo-list management application. CRUD your tasks and boards( task-lists) on the go.",
@@ -24,6 +15,15 @@ export default function AllProjects() {
             gitURL: 'https://github.com/Aakash-mishra2/todo-app-assignment',
             techStack: 'React, Redux, TailwindCSS, Styled-components, MaterialUI, HTML-CSS',
 
+        },
+        {
+            id: 'thl234',
+            title: 'Court Case Management System : MERN',
+            description: "Full MERN Stack web application to manage pending court cases for citizens and register new case applications online. BACKEND: https://github.com/Aakash-mishra2/CCMS-backEnd",
+            image: ccms,
+            projectUrl: 'https://yourccms.netlify.app/',
+            gitURL: 'https://github.com/Aakash-mishra2/CCMS-reactjs-front-end',
+            techStack: "Frontend: ReactJS, Hooks, TailwindCSS, Axios, Redux, HTML-CSS  Backend: RestAPI, NodeJS, ExpressJS, Javascript, MongoDB ",
         },
         {
             id:'shl234',
