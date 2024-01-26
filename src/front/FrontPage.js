@@ -1,7 +1,6 @@
 import FrontItem from "./components/FrontItem";
 import { Link } from "react-router-dom";
 import prj from '../icons/project-management.png';
-import rsl from '../icons/results.png';
 import mlt from '../icons/multitasking.png';
 import trg from '../icons/online-learning.png';
 export default function FrontPage() {
@@ -23,12 +22,6 @@ export default function FrontPage() {
             name: "Articles and More..",
             linkTo: "/articles",
             icon: mlt
-        },
-        {
-            id: 'extras',
-            name: "Marksheets",
-            linkTo: 'https://www.ipuranklist.com/student/00214802720',
-            icon: rsl
         }
     ]
 
