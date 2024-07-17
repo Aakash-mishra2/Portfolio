@@ -1,6 +1,6 @@
 import FrontList from "../front/components/FrontList";
-import cpp from "../icons/c-.png";
-import algo from "../icons/neural.png";
+// import cpp from "../icons/c-.png";
+// import algo from "../icons/neural.png";
 import dsa from "../icons/algorithm.png";
 import apd from "../icons/app-development.png";
 
