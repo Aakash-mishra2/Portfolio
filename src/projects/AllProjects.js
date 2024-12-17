@@ -2,6 +2,7 @@ import React from "react";
 import ProjectList from "./components/ProjectList";
 //import jvc from "../icons/java_calculator.png";
 import ccms from "../icons/ccms.jpg"
+import ccmsdb from '../icons/ccmsdb-pic.jpg';
 import metup from "../icons/meetup.JPG"
 import todo from "../icons/todo-app.JPG"
 export default function AllProjects() {
@@ -26,11 +27,11 @@ export default function AllProjects() {
             techStack: "Frontend: ReactJS, Hooks, TailwindCSS, Axios, Redux, HTML-CSS  Backend: RestAPI, NodeJS, ExpressJS, Javascript, MongoDB ",
         },
         {
-            id:'shl234',
+            id: 'shl234',
             title: 'Court Case Mgm. System: Node Backend',
             description: 'Node Backend for handling REST-API requests using Graphql and Express with exhaustive error handling and input validation.',
             projectUrl: 'https://github.com/Aakash-mishra2/node-express-mongodb-court-case-management-backend',
-            image: ccms,
+            image: ccmsdb,
             gitURL: 'https://github.com/Aakash-mishra2/node-express-mongodb-court-case-management-backend',
             techStack: 'Node, Express, MongoDB, Mongoose, Router, Javascript, Express-validator'
         },
