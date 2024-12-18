@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import Card from "../../shared/UIElements/Card";
 import Button from "../../shared/FormComponents/Button";
 import '../styles/ProjectItem.css';
@@ -11,10 +11,10 @@ export default function CaseItem(props) {
 
     return (
         <div>
-        <Modal
+            <Modal
                 show={isDescBox}
                 closeBox={closeDescBox}
-                header= "About This Project"
+                header="About This Project"
                 footer={
                     <span>
                         <Button onClick={closeDescBox} danger>CLOSE</Button>
@@ -29,7 +29,7 @@ export default function CaseItem(props) {
 
             </Modal>
             <React.Fragment>
-                <div className="project-item hover:scale-110 active:scale-110 transform duration-1000 ">
+                <div className="project-item hover:scale-102 active:scale-102 ease-in-out transform duration-2000 ">
                     <Card className="project-item__content ">
                         <div className="project-item__image ">
                             <img src={props.image} alt={props.title} />
@@ -38,10 +38,10 @@ export default function CaseItem(props) {
                             <h2>{props.title}</h2>
                         </div>
                         <div className="project-item__actions md:text-lg text-base">
-                            
+
                             <Button onClick={openDescBox}>VIEW</Button>
                             <Button href={props.github} target="_blank"> Github Repository </Button>
-                         </div>
+                        </div>
                     </Card>
                 </div>
             </React.Fragment>
