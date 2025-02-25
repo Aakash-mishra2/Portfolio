@@ -4,17 +4,30 @@ import ProjectList from "./components/ProjectList";
 import ccms from "../icons/ccms.jpg"
 import ccmsdb from '../icons/ccmsdb-pic.jpg';
 import metup from "../icons/meetup.JPG"
-import todo from "../icons/todo-app.JPG"
+// import todo from "../icons/todo-app.JPG"
+import moviesApp from "../icons/moviesApp.png"
+
+
 export default function AllProjects() {
     const ALL_PROJECTS = [
+        // {
+        //     id: 'tda234',
+        //     title: 'ToDo-list App: React-Redux',
+        //     description: "On the go Todo-list management application. CRUD your tasks and boards( task-lists) on the go.",
+        //     projectUrl: 'https://my-todo-webapp.netlify.app/',
+        //     image: todo,
+        //     gitURL: 'https://github.com/Aakash-mishra2/todo-app-assignment',
+        //     techStack: 'React, Redux, TailwindCSS, Styled-components, MaterialUI, HTML-CSS',
+
+        // },
         {
             id: 'tda234',
-            title: 'ToDo-list App: React-Redux',
-            description: "On the go Todo-list management application. CRUD your tasks and boards( task-lists) on the go.",
-            projectUrl: 'https://my-todo-webapp.netlify.app/',
-            image: todo,
-            gitURL: 'https://github.com/Aakash-mishra2/todo-app-assignment',
-            techStack: 'React, Redux, TailwindCSS, Styled-components, MaterialUI, HTML-CSS',
+            title: 'IMDB Clone Web App',
+            description: "Know all about Trending, Recommended and your Favorite Movies on the go. Full Stack application",
+            projectUrl: 'https://movies4all-app.netlify.app/',
+            image: moviesApp,
+            gitURL: 'https://github.com/Aakash-mishra2/imdb-clone-app',
+            techStack: 'TMDB API, MaterialUI, Token Authentication, ReactJS, TailwindCSS, Redux , AsyncThunk',
 
         },
         {
